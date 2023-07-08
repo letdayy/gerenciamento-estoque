@@ -1,7 +1,9 @@
 // Construtor para o objeto Item
-function Item(name, quantity) {
-  this.name = name;
-  this.quantity = quantity;
+class Item {
+  constructor(name, quantity) {
+    this.name = name;
+    this.quantity = quantity;
+  }
 }
 
 // Função para adicionar um novo item ao estoque
